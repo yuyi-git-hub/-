@@ -169,7 +169,7 @@ if st.button("✨ 一鍵生成客製化關懷圖片", type="primary", use_contai
             st.info(f"**「{user_text}！致 {rel}：{bless}」**")
 
             with open("result_card.png", "rb") as file:
-                st.download_button(label="📥 下載這張卡片到手機/電腦", data=file, file_name="关怀卡片.png", mime="image/png", use_container_width=True)
+                st.download_button(label="📥 下載這張卡片到手機/電腦", data=file, file_name="card.png", mime="image/png", use_container_width=True)
 
             # 後台軌跡透明化（提案書的超級加分佐證）
             with st.expander("🔍 查看後台真正的 Gemini 運作軌跡"):
